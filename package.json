@@ -6,10 +6,16 @@
   "author": "Miguel Echenique <mecheniq@tweetbinder.com>",
   "license": "MIT",
   "scripts": {
-    "start":"node api/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "errorhandler": "^1.5.1",
     "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
     "uuid": "^8.3.2"
   }
 }
