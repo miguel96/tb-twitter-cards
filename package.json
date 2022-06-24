@@ -1,0 +1,15 @@
+{
+  "name": "tb-twitter-cards",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:miguel96/tb-twitter-cards.git",
+  "author": "Miguel Echenique <mecheniq@tweetbinder.com>",
+  "license": "MIT",
+  "scripts": {
+    "start":"node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  }
+}
